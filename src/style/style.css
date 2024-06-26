@@ -116,3 +116,18 @@ header {
   font-weight: 400;
   color: #2B283A;
 }
+
+
+@media (max-width: 480px) { 
+  .card {
+    flex-wrap: wrap;
+  }
+
+  .card--image-area {
+    width: 100%;
+  }
+
+  .card--text-area {
+    order: -1;
+  }
+}
